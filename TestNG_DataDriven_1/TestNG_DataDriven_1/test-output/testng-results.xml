@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39295" started-at="2016-05-03T06:01:58Z" finished-at="2016-05-03T06:02:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39295" started-at="2016-05-03T06:01:58Z" finished-at="2016-05-03T06:02:37Z">
+      <class name="suiteA.BGBC_Execution1">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:suiteA.BGBC_Execution1@41eaa2]" name="checkSuiteSkip" is-config="true" duration-ms="5747" started-at="2016-05-03T11:31:52Z" finished-at="2016-05-03T11:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:suiteA.BGBC_Execution1@41eaa2]" name="openBrowser" is-config="true" duration-ms="23314" started-at="2016-05-03T11:31:58Z" finished-at="2016-05-03T11:32:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="TC_BGBC_01()[pri:0, instance:suiteA.BGBC_Execution1@41eaa2]" name="TC_BGBC_01" duration-ms="11620" started-at="2016-05-03T11:32:21Z" finished-at="2016-05-03T11:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_BGBC_01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suiteA.BGBC_Execution1@41eaa2]" name="tearDown" is-config="true" duration-ms="4323" started-at="2016-05-03T11:32:33Z" finished-at="2016-05-03T11:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- suiteA.BGBC_Execution1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

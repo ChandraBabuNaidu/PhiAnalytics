@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="XTBillS Chrome">
+ <parameter name="BrowserName"  value="Firefox"/>
+ <test name="To Test XTBills Portal in Firefox">
+    <classes>
+ 	
+ 	<class name="suiteA.Registration" />
+ 	<class name="suiteA.Registration01" /> 
+ 	<class name="suiteA.Login_01" /> 
+ 	<class name="suiteA.Login_02" />
+  	<class name="suiteA.Login_03" />  
+   	<class name="suiteA.MyCompanies" />
+   	<class name="suiteA.NewCompanyCreation" />
+  	<class name="suiteA.Menubar" /> 
+   	<class name="suiteA.DashBoard_00" />
+ 	<class name="suiteA.DashBoard_01" />
+ 	<class name="suiteA.DashBoard_02" />
+ 	 <class name="suiteA.MyToDoList" />
+ 	 <class name="suiteA.UserCreation_00" /> 
+ 	 <class name="suiteA.BillEntry_00" /> 
+    <class name="suiteA.VendorCreditEntry" />
+    
+    </classes>
+    
+</test>
+
+</suite>

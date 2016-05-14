@@ -1,0 +1,34 @@
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.List;
+import javax.xml.parsers.ParserConfigurationException;
+import org.testng.xml.Parser;
+import org.testng.xml.XmlSuite;
+import org.testng.TestNG;
+import org.xml.sax.SAXException;
+
+public class MultipleXmls{
+
+public static void main(String[] args) throws FileNotFoundException, ParserConfigurationException, SAXException, IOException {
+TestNG testng = new TestNG(); 
+testng.setXmlSuites((List <XmlSuite>)(new Parser("G:\\ManojKS\\Eclipse workspace\\Test1.xml").parse()));	
+testng.setSuiteThreadPoolSize(3);
+testng.run();
+    }
+}
+
+In Test1.xml content is
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Suites"> 
+  <suite-files>
+  <suite-file path="G:\ManojKS\Eclipse workspace\systemSettings\atest1.xml" />
+  <suite-file path="G:\ManojKS\Eclipse workspace\systemSettings\atest2.xml" />
+  <suite-file path="G:\ManojKS\Eclipse workspace\systemSettings\atest3.xml" />
+  </suite-files>
+</suite>
+
+
+DesiredCapabilities caph =  DesiredCapabilities.firefox();	
+			d= new RemoteWebDriver(new URL("http://192.168.1.122:4477/wd/hub"),caph);

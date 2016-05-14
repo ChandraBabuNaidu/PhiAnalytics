@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="suiteA.Login_01">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="TestCase_A32"/>
+          <include name="TestCase_A37"/>
+          <include name="TestCase_A34"/>
+          <include name="TestCase_A35"/>
+          <include name="TestCase_A33"/>
+          <include name="TestCase_A31"/>
+          <include name="TestCase_A36"/>
+        </methods>
+      </class> <!-- suiteA.Login_01 -->
+      <class name="suiteA.Login_03">
+        <methods>
+          <include name="TestCase_A43"/>
+          <include name="TestCase_A42"/>
+          <include name="TestCase_A45"/>
+          <include name="TestCase_A44"/>
+          <include name="TestCase_A46"/>
+        </methods>
+      </class> <!-- suiteA.Login_03 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

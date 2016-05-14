@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="XTBillS Firefox">
+ <parameter name="BrowserName"  value="Firefox"/>
+ <test name="To Test XTBills Portal in Firefox For Pay Bills Module">
+    <classes>     
+ 	<class name="suiteA.Menubar" /> 
+
+    </classes>    
+</test>  
+
+</suite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [XTBills_FF]">
+  <parameter name="BrowserName" value="Firefox"/>
+  <test name="To Test BillEntry Pages in Firefox(failed)">
+    <parameter name="BrowserName" value="Firefox"/>
+    <classes>
+      <class name="suiteA.BillDetails_03">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="finalmethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- suiteA.BillDetails_03 -->
+      <class name="suiteA.BillDetails_06">
+        <methods>
+          <include name="TC_BillDetails_84"/>
+          <include name="TC_BillDetails_85"/>
+          <include name="finalmethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- suiteA.BillDetails_06 -->
+      <class name="suiteA.BillDetails_05">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="finalmethod"/>
+        </methods>
+      </class> <!-- suiteA.BillDetails_05 -->
+    </classes>
+  </test> <!-- To Test BillEntry Pages in Firefox(failed) -->
+</suite> <!-- Failed suite [XTBills_FF] -->

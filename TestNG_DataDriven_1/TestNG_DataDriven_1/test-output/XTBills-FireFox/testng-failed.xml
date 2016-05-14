@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [XTBills-FireFox]">
+  <parameter name="BrowserName" value="Firefox"/>
+  <test name="To Test XTBills Portal for the Module DashBoard in FireFox(failed)">
+    <parameter name="BrowserName" value="Firefox"/>
+    <classes>
+      <class name="suiteA.DashBoard_00">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="TC_DashBoard_03"/>
+          <include name="openBrowser"/>
+          <include name="finalmethod"/>
+          <include name="TC_DashBoard_06"/>
+        </methods>
+      </class> <!-- suiteA.DashBoard_00 -->
+    </classes>
+  </test> <!-- To Test XTBills Portal for the Module DashBoard in FireFox(failed) -->
+</suite> <!-- Failed suite [XTBills-FireFox] -->

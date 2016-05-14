@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BGBC Firefox]">
+  <parameter name="BrowserName" value="Firefox"/>
+  <test name="To Test XTBills Portal in Firefox(failed)">
+    <classes>
+      <class name="suiteA.BGBC_Execution1">
+        <methods>
+          <include name="TC_BGBC_01"/>
+          <include name="tearDown"/>
+          <include name="checkSuiteSkip"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- suiteA.BGBC_Execution1 -->
+    </classes>
+  </test> <!-- To Test XTBills Portal in Firefox(failed) -->
+</suite> <!-- Failed suite [BGBC Firefox] -->

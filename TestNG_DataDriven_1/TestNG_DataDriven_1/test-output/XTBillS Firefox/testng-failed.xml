@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [XTBillS Firefox]">
+  <parameter name="BrowserName" value="Firefox"/>
+  <test name="To Test XTBills Portal in Firefox">
+    <classes>
+      <class name="suiteA.FoodPanda_TC"/>
+    </classes>
+  </test> <!-- To Test XTBills Portal in Firefox -->
+  <test name="To Test XTBills Portal in Firefox(failed)">
+    <classes>
+      <class name="suiteA.FoodPanda_TC">
+        <methods>
+          <include name="TC_FoodPanda_01"/>
+          <include name="checkSuiteSkip"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- suiteA.FoodPanda_TC -->
+    </classes>
+  </test> <!-- To Test XTBills Portal in Firefox(failed) -->
+</suite> <!-- Failed suite [XTBillS Firefox] -->
